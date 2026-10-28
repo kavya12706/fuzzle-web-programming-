@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+vendor/
+backend/vendor/
+
+# Environment and secret files
+.env
+.env.*
+backend/.env
+backend/.env.*
+*.env
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
